@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nom": "Steve",
+    "ville": "Garoua",
+    "telephone": "699000111",
+    "tags": [
+      "vip",
+      "whatsapp"
+    ],
+    "historique_achats": [
+      [
+        "2026-02-01",
+        12000
+      ],
+      [
+        "2026-02-02",
+        5000
+      ]
+    ]
+  },
+  {
+    "id": 2,
+    "nom": "Amina Diallo",
+    "ville": "Maroua",
+    "telephone": "655432109",
+    "tags": [
+      "nouveau",
+      "recommande"
+    ],
+    "historique_achats": [
+      [
+        "2026-02-05",
+        60000
+      ]
+    ]
+  }
+]

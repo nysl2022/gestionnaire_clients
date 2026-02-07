@@ -1,0 +1,54 @@
+=== TP01 — Démo simple (main.py) ===
+Chargement OK : 1 client(s) depuis /home/the-nysl/Bureau/PREUVE_PROJECT/gestionnaire_de_clients/data/clients.json
+
+Après ajouts (clients + achats)
+- id=1 | Steve | Yaounde | tel=699000111 | tags=['vip', 'whatsapp']
+  total_depense = 17000
+  historique_achats = [('2026-02-01', 12000), ('2026-02-02', 5000)]
+- id=2 | Loic | Douala | tel=687904366 | tags=['vip', 'facebook']
+  total_depense = 22000
+  historique_achats = [('2026-02-01', 15000), ('2026-02-07', 7000)]
+
+Recherche par nom: "ste"
+- id=1 | Steve | Yaounde | tel=699000111 | tags=['vip', 'whatsapp']
+  total_depense = 17000
+  historique_achats = [('2026-02-01', 12000), ('2026-02-02', 5000)]
+
+Recherche par ville: "dou"
+- id=2 | Loic | Douala | tel=687904366 | tags=['vip', 'facebook']
+  total_depense = 22000
+  historique_achats = [('2026-02-01', 15000), ('2026-02-07', 7000)]
+
+Tri par nom (A->Z)
+- id=2 | Loic | Douala | tel=687904366 | tags=['vip', 'facebook']
+  total_depense = 22000
+  historique_achats = [('2026-02-01', 15000), ('2026-02-07', 7000)]
+- id=1 | Steve | Yaounde | tel=699000111 | tags=['vip', 'whatsapp']
+  total_depense = 17000
+  historique_achats = [('2026-02-01', 12000), ('2026-02-02', 5000)]
+
+Tri par total d'achat (décroissant)
+- id=2 | Loic | Douala | tel=687904366 | tags=['vip', 'facebook']
+  total_depense = 22000
+  historique_achats = [('2026-02-01', 15000), ('2026-02-07', 7000)]
+- id=1 | Steve | Yaounde | tel=699000111 | tags=['vip', 'whatsapp']
+  total_depense = 17000
+  historique_achats = [('2026-02-01', 12000), ('2026-02-02', 5000)]
+
+Après modification (Steve -> ville=Douala)
+- id=1 | Steve | Douala | tel=699000111 | tags=['vip', 'whatsapp']
+  total_depense = 17000
+  historique_achats = [('2026-02-01', 12000), ('2026-02-02', 5000)]
+- id=2 | Loic | Douala | tel=687904366 | tags=['vip', 'facebook']
+  total_depense = 22000
+  historique_achats = [('2026-02-01', 15000), ('2026-02-07', 7000)]
+
+Après suppression (Loic supprimé)
+- id=1 | Steve | Douala | tel=699000111 | tags=['vip', 'whatsapp']
+  total_depense = 17000
+  historique_achats = [('2026-02-01', 12000), ('2026-02-02', 5000)]
+
+Erreur attendue (bonus): 'Client introuvable'
+
+Sauvegarde OK -> /home/the-nysl/Bureau/PREUVE_PROJECT/gestionnaire_de_clients/data/clients.json
+=== FIN ===
