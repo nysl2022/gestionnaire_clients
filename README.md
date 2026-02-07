@@ -1,10 +1,12 @@
 TP01 - Gestionnaire de Clients avec Python 
 👥 Équipe de développement
 Membre	Rôle	Tâches principales
-Steve	Développeur backend	• Architecture du module services.py
+Steve	Responsable logique métier & persistance
+• Architecture du module services.py
 • Logique métier CRUD
 • Gestion JSON & persistance
-Fayol	Développeur frontend/UI	• Interface utilisateur main.py
+Fayol	Responsable interface console & intégration
+• Interface utilisateur main.py
 • Menu interactif
 • Démonstration automatique
 
@@ -103,7 +105,7 @@ python
 - ID auto-incrémenté
 - Recherche insensible à la casse (.lower())
 - Tri avec lambda functions
-- Agrégation avec sum() et compréhensions
+- Agrégation avec sum() et compréhension
 - Serialization/deserialization JSON
 
 # Fayol a implémenté dans main.py:
