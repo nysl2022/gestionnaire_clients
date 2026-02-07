@@ -1,11 +1,11 @@
 TP01 - Gestionnaire de Clients avec Python 
 👥 Équipe de développement
 Membre	Rôle	Tâches principales
-Steve	Responsable logique métier & persistance
+Steve	Responsable de la logique métier & persistance
 • Architecture du module services.py
 • Logique métier CRUD
 • Gestion JSON & persistance
-Fayol	Responsable interface console & intégration
+Fayol	Responsable de l'interface console & intégration
 • Interface utilisateur main.py
 • Menu interactif
 • Démonstration automatique
